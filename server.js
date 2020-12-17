@@ -21,7 +21,8 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb+srv://harbourharrison:mSOylD1ep6Q4zUZ0@cluster0.z34v6.mongodb.net/Cluster0?retryWrites=true&w=majority",
   {
     useCreateIndex: true,
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   }
 );
 
